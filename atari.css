@@ -1,0 +1,100 @@
+/* Layout Stylesheet */ 
+
+a:link
+{
+	text-decoration:underline;
+	color:#00ff00;
+}
+
+a:visited
+{
+	text-decoration:underline;
+	font-weight:bold;
+	color:#00ff00;
+}
+
+a:hover
+{
+	text-decoration:underline;
+	color:#00ff00;
+}
+
+a:active
+{
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+a:focus {
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+body
+{
+	margin: 0px;
+	padding:0;
+	background: url("images/asphalt.jpg");
+	color: #ffffff;
+	font:14px Verdana;
+}
+		 
+#lh-col
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 240px;
+	padding: 1px;
+	margin-top: 0px;
+}
+
+#rh-col
+{
+	margin: 10px 10px 10px 250px;
+	padding: 5px 0px 5px 0px;
+}
+
+.blocktext
+{
+	-moz-column-count: 2; 
+	-moz-column-gap: 20px;
+	-moz-column-rule: solid silver 1px;
+	-moz-column-rule-color: #000000;	
+	-webkit-column-count: 2; 
+	-webkit-column-gap: 20px;
+	-webkit-column-rule: dashed silver 1px;
+	-webkit-column-rule-color: #c0c0c0;
+	column-count: 2; 
+	column-gap: 20px;
+	column-rule: solid silver 1px;
+	padding: 3px;
+	text-shadow:black 3px 2px 4px;
+	border-top: dashed 2px #c0c0c0;
+	border-bottom: dashed 2px #c0c0c0;
+	
+}
+
+.footer
+{
+	border: dashed 2px rgb(128,128,128);
+	padding: 5px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-shadow:black 3px 2px 4px;
+}
+
+strong
+{
+	font: 14px Serif;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+h1
+{
+	font: 24px Serif;
+	font-weight: bold;
+	text-align: center;
+	text-shadow:black 3px 2px 4px;
+}
